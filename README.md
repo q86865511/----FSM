@@ -9,17 +9,6 @@
 選站時必須選擇 起點站 與 終點站
 當起站與終站相同時 則為 月台票
 
-
-Main code一律用module vending_machine(…);
-總共會有3個always block(參考ilearning紅綠燈的範例)
-需要輸出的output有costOfTicket、moneyToPay、totalMoney  //  票價、需付的錢、已付的錢
-input有clk、reset、howManyTicket、origin、
-destination、money(變數名稱可以不同)
-// 多少張票、起始站、終點站、投錢(1元5元10元50元)
-宣告的位元如為50，則位元宣告為[5:0]以此
-類推
-
-
 測試數據
 module stimulus ;
 /***
